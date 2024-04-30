@@ -1,0 +1,16 @@
+
+Starting A* search from B to I
+Error: No path found.
+Starting A* search from H to I
+Error: No path found.
+Starting A* search from G to I
+Error: No path found.
+Starting A* search from F to I
+Error: No path found.
+Starting A* search from F to I
+Error: No path found.
+Heuristic value for node A adjusted to 10
+Starting A* search from F to I
+Error: No path found.
+Starting A* search from A to I
+Error: No path found.

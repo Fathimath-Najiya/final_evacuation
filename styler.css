@@ -1,0 +1,110 @@
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.alert-switch {
+    margin-top: 20px;
+}
+
+.alert-switch label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.alert-switch input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: red;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.alert-switch input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+.hidden {
+    display: none;
+}
+/* Style for the building registration form */
+#buildingRegistrationForm {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for form labels */
+#buildingRegistrationForm {
+    width: 60%; /* Adjust width as needed */
+    margin: 100px auto; /* Set margin to center vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+/* Style for form inputs */
+#buildingRegistrationForm input[type="text"],
+#buildingRegistrationForm input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the Register button */
+#buildingRegistrationForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the Register button on hover */
+#buildingRegistrationForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+.floor {
+    margin-bottom: 10px;
+}

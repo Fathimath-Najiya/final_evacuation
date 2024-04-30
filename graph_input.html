@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Input</title>
+    <link rel="stylesheet" href="styleg.css">
+    <style>
+    #instructionParagraph p {
+    color: #a09a9a; /* Light grey color */
+    font-size: small; /* Smaller font size */
+    font-style: italic; /* Italicized font style */
+    text-align: center; /* Center-align text */
+    margin-top: 20px; /* Margin on top for spacing */
+}
+    </style>
+</head>
+<body>
+    <h2>Graph Input</h2>
+    <form id="graphInputForm" action="graph_input.php" method="post">
+        <label for="numberOfNodes">Number of Nodes:</label>
+        <input type="number" id="numberOfNodes" name="numberOfNodes" required>
+
+        <button type="button" onclick="generateFields()">Generate Fields</button>
+        <div id="instructionParagraph"></div>
+        <div id="nodeFields"></div>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="graph_input.js"></script>
+</body>
+</html>

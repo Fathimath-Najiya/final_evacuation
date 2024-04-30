@@ -1,0 +1,56 @@
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.alert-switch {
+    margin-top: 20px;
+}
+
+.alert-switch label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.alert-switch input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: red;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.alert-switch input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+.hidden {
+    display: none;
+}

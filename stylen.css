@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.menu-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-bar ul li a:hover {
+    background-color: #555;
+}
+
+/* Building List Styles */
+.buildings-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buildings-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.buildings-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.buildings-container li {
+    margin-bottom: 10px;
+}
+
+.buildings-container a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.buildings-container a:hover {
+    color: #666; /* Slightly darker on hover */
+}
+
+/* Nodes List Styles */
+.nodes-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nodes-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.nodes-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nodes-container li {
+    margin-bottom: 10px;
+}
+
+.nodes-container a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nodes-container a:hover {
+    color: #666; /* Slightly darker on hover */
+    font-weight: bold;
+}

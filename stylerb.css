@@ -1,0 +1,55 @@
+/* Styling for building names */
+.building-name {
+    font-size: 20px; /* Enlarge the font size */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+/* Styling for update button */
+.update-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Styling for delete button */
+.delete-button {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.action-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.action-button:hover {
+    background-color: #45a049;
+}
+.building {
+    margin-bottom: 10px;
+}

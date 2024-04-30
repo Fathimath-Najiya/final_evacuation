@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        h2 {
+            color: #28a745;
+        }
+
+        h3 {
+            color: #dc3545;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .tip {
+            background-color: #f8d7da;
+            border-left: 5px solid #dc3545;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Owner Guide</h1>
+
+        <div class="tip">
+            <h2>Registering New Buildings</h2>
+            <ul>
+                <li>Log in to your owner account on the application using your credentials.</li>
+                <li>Navigate to the "Manage Buildings" or "List of Registered Buildings" section in the menu.</li>
+                <li>Click on the "Register Building" button to start registering a new building to the system.</li>
+                <li>Provide a floor plan of the building as a graph, indicating nodes for compartments and edges
+                    with values based on factors such as distance between compartments, width of pathways, etc.</li>
+                <li>Assign names or labels to each node (compartment) for easy identification and navigation.</li>
+                <li>Define heuristic values for nodes, estimating the difficulty of reaching the goal node from each
+                    node.</li>
+                <li>Save the information to complete the registration process for the new building.</li>
+            </ul>
+        </div>
+        <div class="tip">
+            <h2>Updating the existing building</h2>
+            <ul>
+                <li>When updating building details such as node coordinates or heuristic values, you can use '#' as a placeholder in the input fields.</li>
+                 <li>  Entering '#' in a field indicates that you want to preserve the existing value for that attribute and do not wish to update it.</li>
+                <li>By using '#' strategically, you can selectively update only the attributes you want, leaving others unchanged.
+                    For example, if you want to update the coordinate X of a node but keep the existing coordinate Y, enter '#' in the coordinate Y field.</li>
+                <li>Use '#' to clearly communicate your intentions to the system when updating building graph data.
+                    It helps in distinguishing between attributes that require updates and those that should remain as they are.</li>
+            </ul>
+        </div>
+        <div class="tip">
+            <h2>Giving Alerts for Registered Buildings</h2>
+            <p>If there is an emergency situation in one of your registered buildings and you need to alert occupants
+                and authorities:</p>
+            <ul>
+                <li>Access the "Emergency Alert" or "Trigger Alert" feature in the application dashboard.</li>
+                <li>Select the building where the emergency is occurring from your registered buildings list.</li>
+                <li>Confirm the alert trigger, and the application will notify registered users, security personnel,
+                    and emergency responders about the situation.</li>
+            </ul>
+        </div>
+
+        <div class="tip">
+            <h2>Seeking Professional Help</h2>
+            <p>For the most optimal usage of the application and to ensure effective emergency management:</p>
+            <ul>
+                <li>Consult with professional emergency response experts to customize and optimize emergency protocols
+                    for your buildings.</li>
+                <li>Organize training sessions and drills for building occupants and staff to familiarize them with
+                    emergency procedures and the use of the application.</li>
+                <li>Regularly review and update building information, emergency contacts, and alert settings to maintain
+                    readiness.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
